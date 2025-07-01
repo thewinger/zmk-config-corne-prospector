@@ -293,9 +293,9 @@
         system_layer {
             display-name = "System";
             bindings = <
-&bootloader  &dongle_boot  &trans  &trans  &kp LC(LS(LG(N4)))  &trans    &out OUT_USB  &out OUT_BLE  &kp CAPSLOCK  &trans  &dongle_boot  &bootloader
-&sys_reset   &trans        &trans  &trans  &trans              &trans    &trans        &trans        &trans        &trans  &trans        &sys_reset
-&tog 0       &trans        &trans  &trans  &trans              &trans    &trans        &trans        &trans        &trans  &tog 1        &tog 5
+&bootloader  &dongle_boot  &trans  &trans  &kp LC(LS(LG(N4)))  &trans    &out OUT_USB  &out OUT_BLE  &kp CAPSLOCK  &kp F10  &dongle_boot  &bootloader
+&sys_reset   &trans        &trans  &trans  &trans              &trans    &trans        &trans        &trans        &trans   &trans        &sys_reset
+&tog 0       &trans        &trans  &trans  &trans              &trans    &trans        &trans        &trans        &trans   &tog 1        &tog 5
                                    &trans  &trans              &trans    &trans        &trans        &trans
             >;
         };
