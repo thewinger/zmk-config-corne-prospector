@@ -15,6 +15,9 @@ config ZMK_USB
 config ZMK_SLEEP
 	default y
 
+config DONGLE_SCREEN_OUTPUT_ACTIVE
+  default n
+
 endif
 
 if SHIELD_CORNE_PERIPHERAL_LEFT || SHIELD_CORNE_PERIPHERAL_RIGHT
